@@ -1,0 +1,76 @@
+.sidebar__footer {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__footer--size {
+  height: 108px;
+  margin-top: 268px;
+  margin-bottom: 32px;
+  margin-left: 20px;
+}
+
+.item-sidebar__icon-phone {
+  background: url(/img/phone.svg) no-repeat center;
+}
+
+.item-sidebar__icon-chat {
+  background: url(/img/chat.svg) no-repeat center;
+}
+
+.item-sidebar__icon-profile {
+  background: url(/img/profile.svg) no-repeat center;
+}
+
+.sidebar__contact-one {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sidebar__contact-one--size {
+  margin-bottom: 16px;
+}
+
+.sidebar__contact-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__email {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #1b1c21;
+  font-weight: medium;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.sidebar__phone {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.6px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #1b1c21;
+  margin-bottom: 40px;
+}
+
+.sidebar__languages {
+  display: flex;
+}
+
+.sidebar__item-lang {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+  color: #1b1c21;
+  margin-right: 7px;
+}
+
+.sidebar__item-lang--active {
+  color: #7e7e82;
+}
