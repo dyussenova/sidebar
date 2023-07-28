@@ -3,6 +3,7 @@
   height: 1024px;
   position: fixed;
   left: 0;
+  box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
 }
 
 .sidebar__header {
@@ -38,11 +39,11 @@
   position: relative;
 }
 
-.item-sidebar {
+.sidebar-button {
   display: flex;
   justify-content: flex-start;
 }
-.item-sidebar__icon {
+.sidebar-button__icon {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -50,18 +51,18 @@
   transition-duration: 2s;
 }
 
-.item-sidebar__icon:hover {
+.sidebar-button__icon:hover {
   opacity: 0.2;
 }
-.item-sidebar__icon-burger {
+.sidebar-button__icon-burger {
   background: url(/img/burger.svg) no-repeat center;
 }
 
-.item-sidebar__icon-search {
+.sidebar-button__icon-search {
   background: url(/img/search.svg) no-repeat center;
 }
 
-.item-sidebar__icon:first-child {
+.sidebar-button__icon:first-child {
   align-self: center;
   margin-left: 0;
 }

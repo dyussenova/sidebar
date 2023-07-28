@@ -11,15 +11,15 @@
   margin-left: 20px;
 }
 
-.item-sidebar__icon-phone {
+.sidebar-button__icon-phone {
   background: url(/img/phone.svg) no-repeat center;
 }
 
-.item-sidebar__icon-chat {
+.sidebar-button__icon-chat {
   background: url(/img/chat.svg) no-repeat center;
 }
 
-.item-sidebar__icon-profile {
+.sidebar-button__icon-profile {
   background: url(/img/profile.svg) no-repeat center;
 }
 
